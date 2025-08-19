@@ -1,0 +1,34 @@
+{
+  "name": "food-order-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.11.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.4",
+    "mongoose": "^7.5.1",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.12.2",
+    "socket.io": "^4.7.2",
+    "twilio": "^4.23.0",
+    "words-to-numbers": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "type": "commonjs"
+}
