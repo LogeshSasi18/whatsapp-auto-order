@@ -49,7 +49,7 @@ function App() {
                   </li>
                 ))}
               </ul>
-              <strong>Total: ₹{order.totalPrice}</strong>
+              <strong> Total: ₹{order.totalPrice}</strong>
             </li>
           ))}
         </ul>
