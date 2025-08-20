@@ -21,7 +21,7 @@ function App() {
   if (!restaurant) return <div>Loading restaurant data...</div>;
 
   return (
-    <div style={{ maxWidth: 600, margin: "auto", fontFamily: "Arial, sans-serif", padding: 20 }}>
+    <div  style={{ maxWidth: 600, margin: "auto", fontFamily: "Arial, sans-serif", padding: 20 }}>
       <h1>{restaurant.name}</h1>
       <p>{restaurant.address}</p>
 
