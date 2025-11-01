@@ -112,7 +112,7 @@ app.post("/api/twilio/webhook", async (req, res) => {
     }
   }
 
-  // Parse order
+  // Parse order MSG
   const itemsOrdered = [];
   restaurant.menu.forEach((menuItem) => {
     const regex = new RegExp(`(\\d+)\\s*${menuItem.name.toLowerCase()}`);
