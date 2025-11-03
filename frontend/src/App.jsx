@@ -25,7 +25,7 @@ function App() {
       <h1>{restaurant.name}</h1>
       <p>{restaurant.address}</p>
 
-      <h2>Menu</h2>
+      <h2 style={{ color: "black"}}>Menu</h2>
       <ul>
         {restaurant.menu.map(item => (
           <li key={item.id}>
