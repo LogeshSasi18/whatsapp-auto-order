@@ -8,7 +8,7 @@ function App() {
     fetch("http://localhost:5000/api/restaurant")
       .then(res => res.json())
       .then(setRestaurant);
-
+ 
     const evtSource = new EventSource("http://localhost:5000/api/orders/stream");
     evtSource.onmessage = (e) => {
       const newOrder = JSON.parse(e.data);
