@@ -15,7 +15,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// Dummy restaurant data
+// Dummy restaurant data obj
 const restaurant = {
   name: "Demo Food Place",
   address: "123 Main St",
